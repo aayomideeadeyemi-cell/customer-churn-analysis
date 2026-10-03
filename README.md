@@ -19,7 +19,7 @@ Is there anything actionable the business can do to reduce it?
 
 # Data Cleaning
 
-The raw data required several rounds of cleaning before it could be trusted for analysis. Full detail is in the Cleaning_Log sheet of the workbook- summary below:
+The raw data required several rounds of cleaning before it could be trusted for analysis.
 
 # Issue	Fix
 Header row corrupted (a single-column sort had displaced the CustomerID header to the last row, breaking the ID-to-record mapping)	Restored the header; assigned fresh surrogate IDs since the original mapping could not be reliably reconstructed
@@ -40,7 +40,7 @@ Month-To-Month	454	72.9%
 Two Year	200	8.5%
 One Year	227	7.0%
 
-Month-to-Month customers churn at roughly 9–10x the rate of customers on an annual contract — by far the largest single effect in the data.
+Month-to-Month customers churn at roughly 9–10x the rate of customers on an annual contract  by far the largest single effect in the data.
 
 # 2. Support ticket volume shows a threshold effect
 Support Tickets	Customers	Churn Rate
